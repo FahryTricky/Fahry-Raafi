@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background: linear-gradient(135deg, #2C3E50, #34495E);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    margin-bottom: 15px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.skills p {
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #2C3E50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: #2C3E50;
+    transition: width 0.3s ease-in-out;
+}
+
+h2:hover {
+    color: #1A5276;
+}
+
+h2:hover::after {
+    width: 100%;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.education p {
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #2C3E50; /* Warna biru tua dari gambar */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1a252f; /* Warna lebih gelap saat hover */
+}
